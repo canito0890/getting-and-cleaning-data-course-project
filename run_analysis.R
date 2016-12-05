@@ -64,7 +64,7 @@ data.merged <- rbind(train, test)
 print("Preparing data...")
 # Add readable column names
 colnames(data.merged) <- c("Subject", "Activity", features)
-# factors
+# Factors
 data.merged$Activity <- factor(data.merged$Activity, levels = activities[,1], labels = activities[,2])
 
 # Melt and cast data with reshape2
