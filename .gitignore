@@ -3,6 +3,8 @@
 .RData
 .Ruserdata
 
+*.Rproj
+
 UCI\ HAR\ Dataset/
 
 data.zip
