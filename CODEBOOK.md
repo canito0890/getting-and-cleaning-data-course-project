@@ -30,7 +30,7 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 ```
 
-The tidy dataset only contains mean: `mean` and standard deviation fields `std`.
+The tidy dataset only contains mean: `mean` and standard deviation `std` fields.
 
 - tBodyAccMeanX
 - tBodyAccMeanY
